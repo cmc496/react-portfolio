@@ -1,8 +1,9 @@
 # React Portfolio
 
-## License
+## [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description:
+This repo contains a personal portfolio built as a React application.
 
 ## Table of Contents:
 * [Technologies](#technologies)
@@ -33,13 +34,13 @@
 * gh-pages
 
 ## Screenshot:
-* screenshot
+* ![React-PortfolioScrnsht](https://user-images.githubusercontent.com/99096273/183517705-898beadb-9734-49e2-bf89-70bc1f0951f5.png)
 
 ## Link to Portfolio:
-* link
+* https://cmc496.github.io/react-portfolio/
 
 ## Author:
 * Caitlin Clifford
 
 ## Contact Info:
-* [Caitlin's Github](link to github)
+* [Caitlin's Github](https://github.com/cmc496)
