@@ -30,6 +30,21 @@ function Contact() {
         );
     }
 
+    const handleChange = (e) => {
+        if (e.target.name === 'email') {
+            const isValid = validateEmail(e.target.value);
+            if (!isValid) {
+                setErrorMessage('Email invalid')
+            } else {
+                setErrorMessage('');
+            }
+        }
+        if (!errorMessage) {
+            setFormState({ ...formState, [e.target.name]: e.target.value });
+            console.log('Handle Form', formState);
+        }
+    };
+
     return (
         <div>
             <p>Contact Me!</p>
@@ -42,17 +57,17 @@ function Contact() {
         <form onSubmit={handleSubmit}>
             <div>
                 <label htmlFor='name'>Name</label>
-                <input type='text' name='name' defaultValue={name} />
+                <input type='text' name='name' defaultValue={name} onBlur={handleChange} />
             </div>
 
             <div>
                 <label htmlFor='email'>Email</label>
-                <input type='email' name='email' defaultValue={email} />
+                <input type='email' name='email' defaultValue={email} onBlur={handleChange} />
             </div>
 
             <div>
                 <label htmlFor='message'>Message</label>
-                <textarea rows='7' defaultValue={message} />
+                <textarea rows='7' defaultValue={message} onBlur={handleChange} />
             </div>
 
             {errorMessage && (
