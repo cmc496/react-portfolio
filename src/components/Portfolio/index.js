@@ -24,13 +24,13 @@ const projects = [
     },
     {
         id: 2,
-        title: "RunBuddy",
-        languages: "HTML, CSS",
-        packages: "none",
-        image: "/img/RunBuddyProjectBanner.png",
-        description: "RunBuddy is website that allows runners to be matched with a trainer!",
-        repo: "https://github.com/cmc496/run-buddy",
-        live: "https://cmc496.github.io/run-buddy/"
+        title: "Better Reads 2.0",
+        languages: "HTML, CSS, JavaScript, Node.js, MongoDB",
+        packages: "Concurrently, apollo-server-express, bcrypt, express, jsonwebtoken, moment, mongoose, nodemon, @apollo/react-hooks, @stripe/react-stripe-js, @stripe/stripe-js, @testing-library/jest-dom, stripe, react-toastify, react-stripe-checkout, react-scripts, react-router-dom, react-dom, react-bootstrap, react, jwt-decode, graphql-tag, graphql, bootstrap, axios, apollo-boost, @testing-library/user-event, @testing-library/react",
+        image: "/img/Better-Reads-scrnshot.png",
+        description: "Better Reads 2.0 is a digital library for avid readers!",
+        repo: "https://github.com/tmenture/Better-Reads-2.0",
+        live: "https://better-reads-2.herokuapp.com/"
     },
     {
         id: 3,
