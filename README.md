@@ -37,7 +37,7 @@ This repo contains a personal portfolio built as a React application.
 * ![React-PortfolioScrnsht](https://user-images.githubusercontent.com/99096273/183517705-898beadb-9734-49e2-bf89-70bc1f0951f5.png)
 
 ## Link to Portfolio:
-* https://cmc496.github.io/react-portfolio/
+* https://fathomless-oasis-08596.herokuapp.com/
 
 ## Author:
 * Caitlin Clifford
